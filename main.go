@@ -49,7 +49,7 @@ func getMacAddr() (addr string) {
 	return addr
 }
 
-func rateLimiter(c *gin.Context) {
+func RateLimiter(c *gin.Context) {
 	ip := c.ClientIP() + getMacAddr()
 	mutex.Lock()
 	defer mutex.Unlock()

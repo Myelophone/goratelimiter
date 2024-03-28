@@ -5,5 +5,5 @@
 Usage
 
 ```golang
-r.Use(rateLimiter)
+r.Use(goratelimiter.RateLimiter)
 ```
