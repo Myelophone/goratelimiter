@@ -1,4 +1,4 @@
-module github.com/myelophone/goratelimiter
+module goratelimiter
 
 go 1.22.0
 
